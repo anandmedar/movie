@@ -1,0 +1,51 @@
+.A {
+  background: rgb(255, 221, 32);
+}
+
+nav ul {
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #000;
+  width: 120%;
+
+}
+
+li {
+  float: left;
+  list-style: none;
+  padding: 5px;
+  text-decoration: none;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+  text-decoration: none;
+  color: rgb(255, 221, 32);
+}
+
+.B {
+  padding:25px 35px 35px 35px;
+}
+
+img {
+  top: 0;
+  margin: 0;
+}
+
+.center1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
